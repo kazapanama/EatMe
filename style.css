@@ -12,6 +12,7 @@ body {
 .header{
     position:fixed;
     top:0;
+    background-color:#fff;
 }
 
 .wrapper-menu {
@@ -22,6 +23,10 @@ body {
     max-width: 1500px;
     height: 90px;
     
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
 .logo {
@@ -77,7 +82,7 @@ nav > ul > li{
     font-size: 43px;
     font-weight: 800;
     color:#151519;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 .main-text {
@@ -99,5 +104,89 @@ background-color:#FD576C;
 padding: 11px 32px;
 border-radius:50px;
 text-decoration: none;
+}
 
+#problems-section {
+    background-color:#F9FAFC;
+    
+    
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 800;
+    color:#151519;
+    padding-top: 115px;
+    margin-bottom: 50px;
+    
+}
+
+.problems{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+
+.prob{
+    background-color:#fff;
+    width: 350px;
+    height: 216px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    gap:20px;
+    border-radius:10px;
+    margin-bottom: 20px;
+   
+
+}
+
+.circle-1{
+    background-color: #E9F6EB;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.circle-2{
+    background-color: #FDF3E3;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.circle-3{
+    background-color: #FCE3E8;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.icon-s2{
+    width: 34px;
+    height: 34px;
+   
+}
+.prob > *{
+    margin-left: 20px;
+}
+
+.prob-h {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.prob-t{
+    max-width: 289px;
+    font-size: 16px;
 }
