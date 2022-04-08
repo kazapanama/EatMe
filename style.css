@@ -22,6 +22,7 @@ body {
     align-items: center;
     max-width: 1500px;
     height: 90px;
+    padding:0 30px;
     
 }
 .wrapper{
@@ -70,6 +71,9 @@ nav > ul > li{
     background-color:#ECEBEB;
 }
 
+#start{
+    margin-top: 50px;
+}
 #start > .wrapper{
     width: 100vw;
     height: 100vh;
@@ -189,4 +193,119 @@ text-decoration: none;
 .prob-t{
     max-width: 289px;
     font-size: 16px;
+}
+
+.result {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.how-block {
+    border:1px solid #ECEBEB;
+    border-radius: 10px;
+}
+
+.how-works{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+
+.how-title{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 37px;
+}
+
+.img-4s{
+    margin-top: 41px;
+    margin-left: 37px;
+    margin-bottom: 22px;
+}
+
+.list-4s{
+    color:#FD576C;
+}
+
+.list-4s > p{
+    color:#151519;
+    margin-bottom: 20px;
+}
+
+#depend{
+    background-color:#F9FAFC;
+}
+
+.depend {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    
+}
+
+.depend-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.depend-item{
+    width:254px;
+    
+}
+
+.depend-item > *{
+    margin-bottom: 10px;
+}
+
+.square{
+    width: 47px;
+    height: 47px;
+    background-color:#FAE3E8;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:10px;
+    
+}
+
+.element-name {
+    font-weight: 700;
+    font-size:23px;
+    color:#F2859A;
+}
+
+.check-icon{
+    background-image: url(/img/section-6-icons/check.svg);
+    width: 17px;
+    height: 13px;
+}
+
+.uncheck-icon{
+    background-image: url(/img/section-6-icons/uncheck.svg);
+    width: 15px;
+    height: 14px;
+}
+
+.half {
+    width:350px;
+    border: 1px solid #ECEBEB;
+    border-radius: 10px;
+    height: 724px;
+}
+
+.choose-item{
+    display: flex;
+    gap:15px;
+    align-items:center;
+}
+
+.choose-top {
+    background-color:#5DBD6D;
+    height: 141px;
+    border-radius: 10px 10px 0 0;
 }
