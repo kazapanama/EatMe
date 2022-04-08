@@ -16,6 +16,7 @@ body {
     position:fixed;
     top:0;
     background-color:#fff;
+    z-index: 999;
 }
 
 .wrapper-menu {
@@ -208,6 +209,7 @@ text-decoration: none;
 .how-block {
     border:1px solid #ECEBEB;
     border-radius: 10px;
+    width: 350px;
 }
 
 .how-works{
@@ -227,10 +229,13 @@ text-decoration: none;
     margin-top: 41px;
     margin-left: 37px;
     margin-bottom: 22px;
+    width:90px;
+    height: 100px;
 }
 
 .list-4s{
     color:#FD576C;
+    width: 269px;
 }
 
 .list-4s > p{
@@ -265,7 +270,7 @@ text-decoration: none;
     margin-bottom: 10px;
 }
 
-.square{
+.square-1{
     width: 47px;
     height: 47px;
     background-color:#FAE3E8;
@@ -276,12 +281,45 @@ text-decoration: none;
     
 }
 
-.element-name {
+.square-2{
+    width: 47px;
+    height: 47px;
+    background-color:#E6F9E6;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:10px;
+    
+}
+
+.square-3{
+    width: 47px;
+    height: 47px;
+    background-color:#FBF2E3;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:10px;
+    
+}
+
+.element-name-1{
     font-weight: 700;
     font-size:23px;
     color:#F2859A;
 }
 
+.element-name-2{
+    font-weight: 700;
+    font-size:23px;
+    color:#5DBD6D;
+}
+
+.element-name-3{
+    font-weight: 700;
+    font-size:23px;
+    color:#EFB65D;
+}
 .check-icon{
     background-image: url(/img/section-6-icons/check.svg);
     width: 16px;
@@ -441,6 +479,17 @@ text-decoration: none;
     background-repeat: no-repeat;
 }
 
+.score-left:first-child{
+    font-weight: 600;
+    color:#777575;
+}
+
+.name{
+    font-weight: 400;
+    color:#777575;
+    
+}
+
 .score-right{
     display: flex;
 }
@@ -475,6 +524,7 @@ text-decoration: none;
     left: 50px; 
     top: -50px;
     margin-bottom: 20px;
+    
 }
 
 .rewiev-photo-2{
@@ -499,3 +549,73 @@ text-decoration: none;
     
 }
 
+#disclamer{
+    background-color:#F9FAFC;
+    border-bottom: 1px solid #ECEBEB;
+}
+
+.disclamer-top{
+    display:flex;
+}
+
+.disclamer-bottom{
+    display:flex;
+    gap:30px;
+    
+}
+
+.disclamer-bottom-item{
+    background-color:#FFF;
+    width:540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+    height: 288px;
+    border-radius:10px;
+
+}
+
+.disclamer-r{
+    margin-bottom: 20px;
+}
+
+.disclamer-action{
+    font-size: 20px;
+    font-weight: 600;
+    color:#FD576C;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.disclamer-bottom-item > * {
+    margin-left:30px;
+}
+
+.learn-more{
+    display: flex;
+}
+
+.learn-more > div > p {
+    margin-bottom: 40px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:30px;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    width:800px;
+}
+
+.bottom-link{
+    text-decoration: none;
+    color:#151519;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
