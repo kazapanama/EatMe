@@ -661,6 +661,7 @@ transition: 0.2s ease-out;
 
     body{
         max-width: 100vw;
+        
     }
 
     .footer{
@@ -669,11 +670,10 @@ transition: 0.2s ease-out;
 
     .wrapper{
         padding: 0 20px;
+        
     }
     
-    #start{
-        padding-top:150px;
-    }
+    
 
     #start > .wrapper{
         flex-direction: column-reverse;
@@ -718,6 +718,12 @@ transition: 0.2s ease-out;
     .rewiev-item{
         width:80vw;
         margin-bottom: 100px;
+        height: auto;
+       
+    }
+
+    .line{
+        width:80vw;
     }
 
     .disclamer-top{
@@ -787,5 +793,22 @@ transition: 0.2s ease-out;
 
     .nav-button{
         margin-left: 0px;
+    }
+
+    .rewiev-p{
+        width: 70vw;
+    
+ }
+
+    .review-score{
+        gap:20px;
+    }
+
+    .review-score{
+        padding-bottom: 20px;
+    }
+
+    .main-text{
+        padding-right: 20px;
     }
 }
