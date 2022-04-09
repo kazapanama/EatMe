@@ -497,7 +497,7 @@ transition: 0.2s ease-out;
 }
 
 .star{
-    background-image: url(/img/Star.png) ;
+    background-image: url(./img/Star.png) ;
     width:20px;
     height: 20px;
     background-repeat: no-repeat;
